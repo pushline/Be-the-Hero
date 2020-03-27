@@ -11,29 +11,21 @@ Para clonar o repositório, execute o seguinte comando no terminal:
 
 # Back-End
 
-API desenvolvida em [NodeJS](https://nodejs.org/en/) com acesso a banco de dados relacional. Esta API faz uso do [Knex](http://knexjs.org).
-(Banco de dados SQLite, o usado).
+Api desenvolvida em NodeJS com acesso a banco de dados relacional = SQLite. Esta api faz uso do Knex.
 
-Para executar a API na sua máquina e servir, execute no terminal:
-
-```cd backend -> npm install --save -> npm run dev```
-
-As rotas para acessar a API estão no arquivo [routes.js](https://github.com/pushline/Be-the-Hero/blob/master/backend/src/routes.js). Você pode testar as rotas antes de usar o frontend com o software [Insomnia](https://insomnia.rest/download/). Você só precisa baixar e instalar o Insomnia na sua máquina, e acessar as rotas da aplicação.
+As rotas para acessar a API estão no arquivo [routes.js](https://github.com/pushline/Be-the-Hero/blob/master/backend/src/routes.js). Você pode testar as rotas antes de usar o frontend com o software Insomnia. Você só precisa baixar e instalar o Insomnia na sua máquina, e acessar as rotas da aplicação.
 
 # Front-End (Web)
 
-Frontend web, desenvolvido em [ReactJS](https://pt-br.reactjs.org). Nesta parte da aplicação, é possível entender diversos conceitos do React e do desenvolvimento web em geral. 
+Frontend web, desenvolvido em ReactJS. Nesta parte da aplicação, é possível entender diversos conceitos do React e do desenvolvimento web em geral. 
 
-Além disso, é muito importante entender como a página WEB normalmente se comunica com a API por meio de requisições HTTP, as quais retornam ao frontend como um objeto JSON. Neste caso, foi utilizada a biblioteca axios para realizar a comunicação com a API.
+Além disso, é muito importante entender como a página web normalmente se comunica com a API por meio de requisições http, as quais retornam ao frontend como um objeto json. Neste caso, foi utilizada a lib axios para realizar a comunicação com a api.
 
-Para executar o frontend web no navegador, basta executar os seguintes comandos no terminal:
 
-```cd frontend -> npm install --save -> npm run start```
-
-Com isso, a página da aplicação Be The Hero será aberta. Nela, uma ONG poderá se cadastrar e cadastrar seus incidentes. A ONG também poderá entrar em contato com outras ONGs para poder ajudar nos incidentes delas.
+Com isso, a página da aplicação Be The Hero será aberta. Nela, uma ong poderá se cadastrar e cadastrar seus incidentes. A ong também poderá entrar em contato com outras ONGs para poder ajudar nos incidentes delas.
 
 # Mobile
 
 Em construção.
 
-Atualmente um frontend mobile, desenvolvido com o framework [React Native](https://reactnative.dev) e com o [EXPO](https://expo.io).
+Atualmente um frontend mobile, desenvolvido com o framework React Native e com o Expo.
